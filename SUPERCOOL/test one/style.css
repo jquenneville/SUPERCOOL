@@ -1,0 +1,59 @@
+/* css goes here for jaqs website */
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: beige;
+	font-family: 'Pompiere', cursive;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: 30px;
+}
+
+div#wrapper {
+	/*background: blue;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+
+
+div.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 400px solid transparent;  /* left arrow slant */
+	border-right: 400px solid transparent; /* right arrow slant */
+	border-bottom: 400px solid red; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+}
+
+
+
+
+
+.circle {
+	margin-left: 300px;
+	background-color: white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	/* width and height can be anything, as long as they're equal */
+}
+
+
+
+.circleo {
+	float: left;
+	background-color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	/* width and height can be anything, as long as they're equal */
+}
+
+

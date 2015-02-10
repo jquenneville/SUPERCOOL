@@ -1,0 +1,52 @@
+/* ---------------------- GLOBAL ----------------------*/
+
+section {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 110px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-family: 'Pompiere', cursive;
+}
+section p {
+  font-size: 2em;
+  letter-spacing: 10px;
+}
+section h1 {
+  margin-bottom: 10px;
+  font-size: 3em;
+  letter-spacing: 30px;
+  font-family: 
+}
+
+/* ---------------------- SPECIFIC ----------------------*/
+
+section.one {
+  background-color: #1E211F;
+  color: #ffffff;
+  height:400px;
+}
+section.two {
+  background-color: #6C9537;
+  color: #ffffff;
+  height: 400px;
+}
+section.three {
+  background-color: #E9BF37;
+  color: #ffffff;
+}
+section.four {
+  background-color: #497180;
+  color: #ffffff;
+}
+
+
+/*    colors:
+    red #D15344
+    green #6C9537
+    brown #856431
+    yellow #E9BF37
+    blue #497180
+    grey #202B2A
+    black #1E211F
+    */

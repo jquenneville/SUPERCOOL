@@ -1,0 +1,48 @@
+/* css goes here for jaqs website-this is the css shapes for xmas cardß */
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-bottom: 200px solid transparent;  /* left arrow slant */
+	border-top: 200px solid transparent; /* right arrow slant */
+	border-left: 500px solid #663333; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: -4px;
+	z-index: 4;
+}
+
+.circle {
+	margin-left: 300px;
+	background-color: #CC0033;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 5;
+	/* width and height can be anything, as long as they're equal */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
